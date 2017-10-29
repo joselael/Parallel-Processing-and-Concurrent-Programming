@@ -1,0 +1,19 @@
+Timing Data for Executing The Merge Sort Algorithm using Multiple Threads: Size of Array: 1 Million Integers
+
+First Run: 1: 0.426
+      	   2: 0.404
+	   4: 0.690
+	   8: 0.783
+	   16: 1.718
+	   32: 2.932
+	   64: 5.832
+
+2nd Run	   1: 0.457
+    	   2: 0.306
+	   4: 0.381
+	   8: 0.702
+	   16: 1.430
+	   32: 2.689
+	   64: 5.900
+
+It appears that the algorithm achieves optimal performance when the number of threads correspond to the number of physical logical processors on the machine - not the number of threads as hypothesized.
